@@ -1,0 +1,45 @@
+Ao iniciar a execução do programa, ele começa povoando a memoria ram
+com numeros aleatorios, logo em seguida os mesmos são printados.
+
+Após esta etapa, o menu de execução é apresentado na tela, e nele você
+tem algumas opções...
+
+(1) Processador 1
+(2) Processador 2
+(3) Processador 3
+(4) Printar Todas Caches
+(5) Printar Memoria RAM
+(0) EXIT
+
+Aqui, você deve selecionar algum processador a fim de realizar as
+operações que o código possui.
+
+Depois de selecionar são apresentadas mais algumas opções...
+
+(1) Ler
+(2) Escrever
+(3) Printar Cache
+
+Intuitivamente, você pode ou Ler ou Escrever algo na memória,
+ao fazer isso, você estara utilizando do protocolo MESI e as politicas
+de escrita para executarem de forma correta a lógica.
+
+Além disso, é importante que acesse a opção Printar Cache, para verificar
+as ações. Segue abaixo um exemplo de print da Cache...
+
+======= CACHE PROCESSADOR 1 =======
+Linha[0] = 44793 35445 | MESI = E
+Linha[1] = 25895 123456 | MESI = M
+Linha[2] = 71794 24713 | MESI = E
+Linha[3] = 92799 54554 | MESI = E
+Linha[4] = 82517 49827 | MESI = E
+Linha[5] = null
+Linha[6] = null
+Linha[7] = null
+Linha[8] = null
+Linha[9] = null
+
+Observação: O primeiro valor diz respeito a primeira linha, e o segundo
+a segunda linha do bloco. As demais linhas em null, estão assim pois
+ainda não foi inserido nada.
+
